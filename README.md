@@ -2,8 +2,6 @@
 
 基于 React + Zustand 构建的 AI 对话应用，支持多模型切换、流式输出、多会话管理等功能。
 
----
-
 ## 技术栈
 
 | 类别 | 技术 |
@@ -17,7 +15,8 @@
 | 图标 | react-icons |
 | HTTP 请求 | Axios |
 
----
+## 项目预览
+https://ai-chat-beta-mocha.vercel.app/
 
 ## 功能特性
 
@@ -45,8 +44,6 @@
 ### 响应式布局
 - 侧边栏在移动端默认收起，点击汉堡菜单展开
 - 大屏常驻显示侧边栏
-
----
 
 ## 快速开始
 
@@ -78,8 +75,6 @@ VITE_COZE_BOT_ID=你的Coze Bot ID
 ollama run llama3.2
 ```
 
----
-
 ## 目录结构
 
 ```
@@ -104,7 +99,6 @@ src/
     └── sse.js            # SSE 流式请求封装
 ```
 
----
 
 ## License
 
